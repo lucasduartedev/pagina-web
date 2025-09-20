@@ -1,0 +1,8 @@
+.rodape {
+    background-color: var(--cor-quaternaria);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    color: var(--cor-primaria);
+    font-weight: 600;
+}

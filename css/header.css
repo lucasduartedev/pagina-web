@@ -1,0 +1,15 @@
+
+.titulo_principal{
+    color: var(--cor-terciaria);
+    font-size: 11px;
+    text-align: center;
+    margin: 1em 0;
+}
+.titulo_principal > h1 {
+    font-weight: 600;
+}
+
+.titulo_principal > p {
+    font-size: 18px;
+    font-weight: 500;
+}

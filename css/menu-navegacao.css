@@ -1,0 +1,22 @@
+
+.navegacao {
+    background-color: var(--cor-quaternaria);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacao__links {
+    display: flex;
+}
+
+.navegacao__links > a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    margin: 0 0.5em;
+    font-weight: 600;
+}
+
+.link_desativado {
+    display: none;
+}

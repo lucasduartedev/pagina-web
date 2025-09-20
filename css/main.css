@@ -1,0 +1,23 @@
+
+.conteudo_principal {
+    margin: 0 1em;
+}
+
+.conteudo_principal > p {
+    margin: 1.5em 0;
+}
+
+p > a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    font-weight: 700;
+}
+
+.conteudo_principal__img {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo_principal__img-html {
+    max-width: 85%;
+}
