@@ -13,6 +13,11 @@ p > a {
     font-weight: 700;
 }
 
+p > a:hover {
+    color: var(--cor-cinza);
+    text-decoration: underline;
+}
+
 .conteudo_principal__img {
     display: flex;
     justify-content: center;

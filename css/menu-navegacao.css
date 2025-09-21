@@ -4,6 +4,7 @@
     padding: 1em;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .navegacao__links {
@@ -17,6 +18,35 @@
     font-weight: 600;
 }
 
+.navegacao__links > a:hover {
+    color: var(--cor-cinza);
+    text-decoration: underline;
+}
+
+.navegacao__links > a > img{
+    display: none;
+}
+
 .link_desativado {
     display: none;
+    font-weight: 400 !important;
+}
+
+@media screen and (min-width: 768px) {
+
+    .navegacao__logo-celular {
+        display: none;
+    }
+
+    .navegacao__links > a{
+        display: flex;
+        align-items: center;
+        border-left: 1px solid var(--cor-primaria);
+        padding-left: 0.5em;
+    }
+
+    .navegacao__links > a > img{
+        display: block;
+    }
+
 }

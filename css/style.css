@@ -27,9 +27,10 @@ body {
     text-align: justify;
 }
 
-
-
 /*
+
+CODIGO ANTIGO, ANTES DE APLICAR MOBILE FIRST
+
 .navegacao {
     display: flex;
     background-color: var(--cor-terciaria);

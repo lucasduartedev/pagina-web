@@ -6,3 +6,12 @@
     color: var(--cor-primaria);
     font-weight: 600;
 }
+
+.rodape__texto {
+    display: flex;
+    align-items: center;
+}
+
+.rodape__texto > img {
+    margin-right: 0.5em;
+}
